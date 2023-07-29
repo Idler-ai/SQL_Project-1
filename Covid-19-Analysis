@@ -1,6 +1,6 @@
-  #1  Looking at Total Cases vs Total Deaths
+  ### 1  Looking at Total Cases vs Total Deaths
   -- What is the likelihood of dying if you contracted Covid on a given date in your country?
-
+```sql
 SELECT
   location,
   date,
@@ -12,7 +12,7 @@ FROM
 ORDER BY
   location,
   total_cases;
-
+```
 
   #2 Looking at Total Cases vs Population
   -- What is the percentage of the population of a country that has caught Covid ?
